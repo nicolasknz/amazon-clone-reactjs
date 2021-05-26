@@ -15,8 +15,6 @@ const Header = () => {
   const router = useRouter();
   const items = useSelector(selectItems);
 
-  console.log(items);
-
   return (
     <header>
       <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2">
